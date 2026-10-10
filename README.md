@@ -4,7 +4,7 @@ Clean and preprocess a sample dataset, documenting every preprocessing step and 
 behind it.
 
 **Dataset:** UCI *Adult / Census Income* — 48,842 records, 14 attributes, binary income target.
-**Write-up:** [`reports/REPORT.md`](reports/REPORT.md) ← start here.
+**Write-up:** [`reports/REPORT.md`](reports/REPORT.md) ← start here (also as [Word](reports/Week1_Preprocessing_Report.docx), [PDF](reports/Week1_Preprocessing_Report.pdf) and [HTML](reports/Week1_Preprocessing_Report.html)).
 **Notebook:** [`notebooks/week1_preprocessing.ipynb`](notebooks/week1_preprocessing.ipynb)
 
 ## Quick start
@@ -19,6 +19,13 @@ report — roughly 5 minutes on a laptop CPU. To confirm the write-up still matc
 
 ```bash
 python src/verify_report.py
+```
+
+To regenerate the Word/PDF/HTML versions of the report:
+
+```bash
+python src/make_pdf.py      # HTML + PDF
+npm install docx && node src/make_docx.js   # Word
 ```
 
 It re-reads `reports/REPORT.md`, cross-checks 93 quoted figures against `outputs/*.json`, and
