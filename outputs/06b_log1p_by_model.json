@@ -1,0 +1,11 @@
+{
+  "logreg_log1p": 0.90987,
+  "logreg_raw": 0.91228,
+  "logreg_delta": -0.00241,
+  "knn_log1p": 0.89859,
+  "knn_raw": 0.90653,
+  "knn_delta": -0.00794,
+  "hgb_log1p": 0.93239,
+  "hgb_raw": 0.93239,
+  "hgb_delta": 0.0
+}

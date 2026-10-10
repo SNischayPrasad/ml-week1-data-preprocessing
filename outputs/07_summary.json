@@ -1,0 +1,21 @@
+{
+  "standard_error_cv_mean": 0.002142,
+  "effects": {
+    "Scale numerics (KNN)": 0.01878,
+    "Drop log1p on capital columns": 0.00241,
+    "'Missing' as a level, not the mode": 0.0016,
+    "Scale numerics (logistic reg.)": 0.00036,
+    "Scale numerics (grad. boosting)": 0.0,
+    "Fold rare levels (vs naive one-hot)": -0.00012
+  },
+  "final_curves": {
+    "Logistic regression": {
+      "auc": 0.91228,
+      "pr_auc": 0.78276
+    },
+    "Gradient boosting": {
+      "auc": 0.93239,
+      "pr_auc": 0.84022
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "train_rows": 39032,
+  "test_rows": 9758,
+  "features_in": 15,
+  "features_out": 53,
+  "min_frequency": 0.01,
+  "categorical_encoding": {
+    "workclass": {
+      "levels_seen_in_train": 9,
+      "levels_folded_as_infrequent": 2,
+      "output_columns": 8
+    },
+    "marital_status": {
+      "levels_seen_in_train": 7,
+      "levels_folded_as_infrequent": 1,
+      "output_columns": 7
+    },
+    "occupation": {
+      "levels_seen_in_train": 15,
+      "levels_folded_as_infrequent": 2,
+      "output_columns": 14
+    },
+    "relationship": {
+      "levels_seen_in_train": 6,
+      "levels_folded_as_infrequent": 0,
+      "output_columns": 6
+    },
+    "race": {
+      "levels_seen_in_train": 5,
+      "levels_folded_as_infrequent": 2,
+      "output_columns": 4
+    },
+    "sex": {
+      "levels_seen_in_train": 2,
+      "levels_folded_as_infrequent": 0,
+      "output_columns": 2
+    },
+    "native_country": {
+      "levels_seen_in_train": 42,
+      "levels_folded_as_infrequent": 39,
+      "output_columns": 4
+    }
+  },
+  "onehot_cols_naive": 86,
+  "onehot_cols_actual": 45,
+  "scaler_fitted_means_train": {
+    "age": 38.599662,
+    "education_num": 10.078448,
+    "hours_per_week": 40.490367
+  },
+  "scaler_means_if_fitted_on_all_data": {
+    "age": 38.652798,
+    "education_num": 10.078807,
+    "hours_per_week": 40.425886
+  },
+  "train_mean_after_scaling": {
+    "age": -0.0,
+    "education_num": 0.0,
+    "hours_per_week": -0.0
+  },
+  "test_mean_after_scaling": {
+    "age": 0.019402,
+    "education_num": 0.000698,
+    "hours_per_week": -0.025977
+  },
+  "skew_before_log1p": {
+    "capital_gain": 7.637,
+    "capital_loss": 4.582
+  },
+  "skew_after_log1p": {
+    "capital_gain": 3.096,
+    "capital_loss": 4.317
+  },
+  "nan_remaining_train": 0,
+  "nan_remaining_test": 0
+}

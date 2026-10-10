@@ -1,0 +1,193 @@
+{
+  "n_rows": 48842,
+  "n_cols": 15,
+  "nan_detected_by_pandas": 0,
+  "sentinel_missing": {
+    "workclass": {
+      "count": 2799,
+      "pct": 5.731
+    },
+    "occupation": {
+      "count": 2809,
+      "pct": 5.751
+    },
+    "native_country": {
+      "count": 857,
+      "pct": 1.755
+    }
+  },
+  "rows_with_any_missing": 3620,
+  "rows_with_any_missing_pct": 7.412,
+  "target_rate_overall": 23.928,
+  "target_rate_rows_with_missing": 13.232,
+  "target_rate_rows_complete": 24.784,
+  "workclass_and_occupation_both_missing": 2799,
+  "workclass_missing_only": 0,
+  "occupation_missing_only": 10,
+  "exact_duplicate_rows": 52,
+  "duplicate_rows_excluding_target": 57,
+  "target_counts": {
+    "<=50K": 37155,
+    ">50K": 11687
+  },
+  "target_imbalance_ratio": 3.179,
+  "majority_class_baseline_acc": 76.072,
+  "numeric": {
+    "age": {
+      "mean": 38.64,
+      "std": 13.71,
+      "min": 17.0,
+      "q1": 28.0,
+      "median": 37.0,
+      "q3": 48.0,
+      "max": 90.0,
+      "skew": 0.558,
+      "pct_zero": 0.0,
+      "n_outliers_iqr": 216,
+      "pct_outliers_iqr": 0.442,
+      "range_ratio_to_age": null
+    },
+    "fnlwgt": {
+      "mean": 189664.13,
+      "std": 105604.03,
+      "min": 12285.0,
+      "q1": 117550.5,
+      "median": 178144.5,
+      "q3": 237642.0,
+      "max": 1490400.0,
+      "skew": 1.439,
+      "pct_zero": 0.0,
+      "n_outliers_iqr": 1453,
+      "pct_outliers_iqr": 2.975,
+      "range_ratio_to_age": null
+    },
+    "education_num": {
+      "mean": 10.08,
+      "std": 2.57,
+      "min": 1.0,
+      "q1": 9.0,
+      "median": 10.0,
+      "q3": 12.0,
+      "max": 16.0,
+      "skew": -0.317,
+      "pct_zero": 0.0,
+      "n_outliers_iqr": 1794,
+      "pct_outliers_iqr": 3.673,
+      "range_ratio_to_age": null
+    },
+    "capital_gain": {
+      "mean": 1079.07,
+      "std": 7452.02,
+      "min": 0.0,
+      "q1": 0.0,
+      "median": 0.0,
+      "q3": 0.0,
+      "max": 99999.0,
+      "skew": 11.895,
+      "pct_zero": 91.739,
+      "n_outliers_iqr": 4035,
+      "pct_outliers_iqr": 8.261,
+      "range_ratio_to_age": null
+    },
+    "capital_loss": {
+      "mean": 87.5,
+      "std": 403.0,
+      "min": 0.0,
+      "q1": 0.0,
+      "median": 0.0,
+      "q3": 0.0,
+      "max": 4356.0,
+      "skew": 4.57,
+      "pct_zero": 95.328,
+      "n_outliers_iqr": 2282,
+      "pct_outliers_iqr": 4.672,
+      "range_ratio_to_age": null
+    },
+    "hours_per_week": {
+      "mean": 40.42,
+      "std": 12.39,
+      "min": 1.0,
+      "q1": 40.0,
+      "median": 40.0,
+      "q3": 45.0,
+      "max": 99.0,
+      "skew": 0.239,
+      "pct_zero": 0.0,
+      "n_outliers_iqr": 13496,
+      "pct_outliers_iqr": 27.632,
+      "range_ratio_to_age": null
+    }
+  },
+  "scale_spread_max_over_min_std": 41091.1,
+  "categorical": {
+    "workclass": {
+      "n_unique": 9,
+      "top_level": "Private",
+      "top_level_pct": 69.42,
+      "n_levels_under_1pct": 2,
+      "rows_in_levels_under_1pct": 31
+    },
+    "education": {
+      "n_unique": 16,
+      "top_level": "HS-grad",
+      "top_level_pct": 32.32,
+      "n_levels_under_1pct": 2,
+      "rows_in_levels_under_1pct": 330
+    },
+    "marital_status": {
+      "n_unique": 7,
+      "top_level": "Married-civ-spouse",
+      "top_level_pct": 45.82,
+      "n_levels_under_1pct": 1,
+      "rows_in_levels_under_1pct": 37
+    },
+    "occupation": {
+      "n_unique": 15,
+      "top_level": "Prof-specialty",
+      "top_level_pct": 12.64,
+      "n_levels_under_1pct": 2,
+      "rows_in_levels_under_1pct": 257
+    },
+    "relationship": {
+      "n_unique": 6,
+      "top_level": "Husband",
+      "top_level_pct": 40.37,
+      "n_levels_under_1pct": 0,
+      "rows_in_levels_under_1pct": 0
+    },
+    "race": {
+      "n_unique": 5,
+      "top_level": "White",
+      "top_level_pct": 85.5,
+      "n_levels_under_1pct": 2,
+      "rows_in_levels_under_1pct": 876
+    },
+    "sex": {
+      "n_unique": 2,
+      "top_level": "Male",
+      "top_level_pct": 66.85,
+      "n_levels_under_1pct": 0,
+      "rows_in_levels_under_1pct": 0
+    },
+    "native_country": {
+      "n_unique": 42,
+      "top_level": "United-States",
+      "top_level_pct": 89.74,
+      "n_levels_under_1pct": 39,
+      "rows_in_levels_under_1pct": 3202
+    }
+  },
+  "onehot_columns_if_naive": 102,
+  "education_levels_with_multiple_nums": 0,
+  "education_is_perfect_map_of_education_num": true,
+  "max_abs_offdiag_numeric_corr": 0.1644,
+  "point_biserial_with_target": {
+    "age": 0.2304,
+    "fnlwgt": -0.0063,
+    "education_num": 0.3326,
+    "capital_gain": 0.223,
+    "capital_loss": 0.1476,
+    "hours_per_week": 0.2277
+  },
+  "fnlwgt_corr_with_target": -0.0063
+}

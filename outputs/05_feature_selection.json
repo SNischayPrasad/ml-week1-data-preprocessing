@@ -1,0 +1,115 @@
+{
+  "n_features": 53,
+  "mi_top10": {
+    "marital_status_Married-civ-spouse": 0.10459,
+    "relationship_Husband": 0.09064,
+    "capital_gain": 0.08271,
+    "age": 0.07103,
+    "marital_status_Never-married": 0.06478,
+    "education_num": 0.06161,
+    "hours_per_week": 0.04043,
+    "capital_loss": 0.03859,
+    "relationship_Own-child": 0.03541,
+    "has_capital_gain": 0.0351
+  },
+  "mi_zero_or_near_zero": {
+    "workclass_infrequent_sklearn": 0.0,
+    "workclass_State-gov": 0.0,
+    "occupation_Farming-fishing": 0.0,
+    "occupation_Transport-moving": 0.0,
+    "native_country_Missing": 0.0
+  },
+  "top_correlated_pairs": [
+    {
+      "a": "sex_Female",
+      "b": "sex_Male",
+      "abs_pearson": 1.0
+    },
+    {
+      "a": "workclass_Missing",
+      "b": "occupation_Missing",
+      "abs_pearson": 0.9981
+    },
+    {
+      "a": "capital_loss",
+      "b": "has_capital_loss",
+      "abs_pearson": 0.9812
+    },
+    {
+      "a": "marital_status_Married-civ-spouse",
+      "b": "relationship_Husband",
+      "abs_pearson": 0.894
+    },
+    {
+      "a": "race_Black",
+      "b": "race_White",
+      "abs_pearson": 0.7927
+    },
+    {
+      "a": "native_country_United-States",
+      "b": "native_country_infrequent_sklearn",
+      "abs_pearson": 0.7848
+    },
+    {
+      "a": "capital_gain",
+      "b": "capital_gain_topcoded",
+      "abs_pearson": 0.7522
+    },
+    {
+      "a": "capital_gain",
+      "b": "has_capital_gain",
+      "abs_pearson": 0.6834
+    }
+  ],
+  "perm_top10": {
+    "capital_gain": 0.03726,
+    "education_num": 0.0246,
+    "marital_status_Married-civ-spouse": 0.02392,
+    "age": 0.02015,
+    "hours_per_week": 0.01008,
+    "capital_loss": 0.00676,
+    "relationship_Husband": 0.00672,
+    "occupation_Exec-managerial": 0.00308,
+    "occupation_Prof-specialty": 0.00237,
+    "marital_status_Never-married": 0.00231
+  },
+  "perm_non_positive_count": 14,
+  "agreed_dead_features": [
+    "native_country_Missing",
+    "workclass_State-gov"
+  ],
+  "n_agreed_dead": 2,
+  "auc_all_features": 0.91228,
+  "auc_after_dropping_dead": 0.91228,
+  "auc_delta": 0.0,
+  "topk_curve": [
+    {
+      "k": 5,
+      "auc": 0.8363
+    },
+    {
+      "k": 10,
+      "auc": 0.90331
+    },
+    {
+      "k": 15,
+      "auc": 0.90699
+    },
+    {
+      "k": 20,
+      "auc": 0.9081
+    },
+    {
+      "k": 30,
+      "auc": 0.90995
+    },
+    {
+      "k": 40,
+      "auc": 0.91132
+    },
+    {
+      "k": 53,
+      "auc": 0.91228
+    }
+  ]
+}

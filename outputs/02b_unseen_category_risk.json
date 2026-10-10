@@ -1,0 +1,11 @@
+{
+  "seeds_tested": 200,
+  "seeds_with_unseen_test_category": 45,
+  "pct": 22.5,
+  "levels_involved": {
+    "Holand-Netherlands": 45
+  },
+  "rarest_level": "Holand-Netherlands",
+  "rarest_level_row_count": 1,
+  "seed_42_had_unseen": false
+}

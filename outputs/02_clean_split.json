@@ -1,0 +1,27 @@
+{
+  "rows_in": 48842,
+  "cols_in": 15,
+  "contradictory_label_rows": 10,
+  "exact_duplicates_dropped": 52,
+  "rows_after_dedupe": 48790,
+  "columns_dropped": [
+    "fnlwgt",
+    "education"
+  ],
+  "cols_after_drop": 13,
+  "sentinel_values_converted_to_nan": 6456,
+  "nan_after_conversion": 6456,
+  "capital_gain_topcoded_rows": 244,
+  "capital_gain_true_max_observed": 41310,
+  "engineered_features": [
+    "capital_gain_topcoded",
+    "has_capital_gain",
+    "has_capital_loss"
+  ],
+  "positive_rate_pct": 23.941,
+  "train_rows": 39032,
+  "test_rows": 9758,
+  "train_positive_rate_pct": 23.942,
+  "test_positive_rate_pct": 23.939,
+  "categories_in_test_absent_from_train": {}
+}

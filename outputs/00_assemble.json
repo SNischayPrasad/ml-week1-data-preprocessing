@@ -1,0 +1,16 @@
+{
+  "adult_data_rows": 32561,
+  "adult_test_rows": 16281,
+  "labels_before_fix": [
+    "<=50K",
+    "<=50K.",
+    ">50K",
+    ">50K."
+  ],
+  "labels_after_fix": [
+    "<=50K",
+    ">50K"
+  ],
+  "combined_rows": 48842,
+  "combined_cols": 15
+}

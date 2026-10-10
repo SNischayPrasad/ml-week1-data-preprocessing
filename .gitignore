@@ -1,0 +1,15 @@
+# Regenerable data (31 MB). `python run_all.py` re-downloads and rebuilds all of it.
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+Thumbs.db
+.DS_Store
